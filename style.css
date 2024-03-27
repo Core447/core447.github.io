@@ -32,6 +32,8 @@ div.cursors div{
   z-index: 10000;
   pointer-events: none;
   transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease; /* Adjust the duration and timing function as needed */
+  opacity: 0; /* Start with the cursor invisible */
 }
 .main-div {
   flex-grow: 1;
