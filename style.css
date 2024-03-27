@@ -314,7 +314,7 @@ div.cursors div{
 /* Mobile */
 @media (max-width: 1500px) {
   .welcome-text {
-    font-size: 60px;
+    font-size: 45px;
   }
   .welcome-img {
     max-width: 90%;
@@ -335,7 +335,7 @@ div.cursors div{
     text-align: center;
   }
   .card {
-    max-width: 250px;
+    max-width: 15wh;
   }
   .description-header {
     margin-top: 10vw;
@@ -343,7 +343,7 @@ div.cursors div{
   }
   .topnav {
     flex-direction: column; /* Stack the elements vertically */
-    align-items: flex-start; /* Align items to the start of the container */
+    align-items: center; /* Align items to the start of the container */
   }
 
   .topnav-left,
@@ -356,18 +356,21 @@ div.cursors div{
 
   .topnav-center {
     order: 2; /* Position the center section below the left section */
-    margin-top: 14%;
+    margin-top: 16%;
   }
 
   .topnav-right {
     order: 3; /* Position the right section at the bottom */
-    margin-top: 6%;
+    margin-top: 10vh;
+  }
+  .topnav-center a {
+    margin: 20px;
   }
   .logo-text {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   .logo-img {
-    min-height: 15vw;
+    min-height: 10hv;
   }
 }
 
