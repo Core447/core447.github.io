@@ -313,7 +313,7 @@ div.cursors div{
 /* Responsiveness - kind of */
 
 /* Mobile */
-@media (max-width: 1500px) {
+@media (max-width: 800px) {
   .welcome-text {
     font-size: 45px;
   }
@@ -376,7 +376,7 @@ div.cursors div{
 }
 
 /* Desktop */
-@media (min-width: 1500px) {
+@media (min-width: 800px) {
   .welcome-text {
     font-size: 110px;
   }
