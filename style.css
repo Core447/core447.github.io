@@ -312,12 +312,12 @@ div.cursors div{
 /* Responsiveness - kind of */
 
 /* Mobile */
-/* @media (max-width: 1500px) {
+@media (max-width: 1500px) {
   .welcome-text {
-    font-size: 40px;
+    font-size: 60px;
   }
   .welcome-img {
-    max-width: 80%;
+    max-width: 90%;
     margin-top: 12%;
   }
   .topnav {
@@ -334,7 +334,14 @@ div.cursors div{
     padding: 10px 0;
     text-align: center;
   }
-} */
+  .card {
+    max-width: 250px;
+  }
+  .description-header {
+    margin-top: 10vw;
+    font-size: 4vw;
+  }
+}
 
 /* Desktop */
 @media (min-width: 1500px) {
