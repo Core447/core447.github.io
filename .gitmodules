@@ -1,0 +1,3 @@
+[submodule "streamcontroller/docs"]
+	path = streamcontroller/docs
+	url = https://github.com/streamController/docs
